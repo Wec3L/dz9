@@ -53,6 +53,7 @@ body {
     letter-spacing: 0.1em;
     color: #F13C6E;
     padding-top: 19px;
+    text-decoration: none;
 }
 .border {
     margin-bottom: 30px;
@@ -193,7 +194,6 @@ body {
     letter-spacing: 0.05em;
     margin-bottom: 20px;
 }
-
 .buy {
     text-decoration: none;
     color: #FFFFFF;
@@ -302,8 +302,12 @@ body {
     font-size: 16px;
     line-height: 22.5px;
     color: #000000;
-    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 30px;
     width: 255px;
+}
+.footerb2 {
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 25px;
 }
 .footeritems {
     font-size: 12px;
@@ -329,7 +333,7 @@ body {
     float: left;
 }
 .youtube {
-    padding: 15px 11px 14px 11px;
+    padding: 12px 9px 11px 9px;
 }
 .ylogo {
     border: 2px solid #F13C6E;
@@ -342,13 +346,13 @@ body {
     margin-bottom: 38px;
 }
 .vk {
-    padding: 15px 9px 14px 8px;
+    padding: 12px 6px 11px 5px;
 }
 .facebook {
-    padding: 13px 13px 12px 12px;
+    padding: 11px 10px 8px 11px;
 }
 .insta {
-    padding: 12px 12px 11px 11px;
+    padding: 10px 9px 7px 10px;
 }
 .fright {
     float: right;
