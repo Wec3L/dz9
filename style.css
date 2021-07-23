@@ -41,6 +41,9 @@ body {
     float: left;
     margin-bottom: 20px;
 }
+.fleft:last-child {
+    margin-bottom: 0;
+}
 .img {
     float: left;
     margin-right: 20px;
@@ -278,6 +281,8 @@ body {
 }
 .brand {
     text-decoration: none;
+    display: block;
+    vertical-align: top;
 }
 .brandlogo {
     width: 277px;
