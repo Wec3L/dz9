@@ -39,14 +39,14 @@ body {
 }
 .fleft {
     float: left;
-    margin-bottom: 20px;
 }
 .fleft:last-child {
     margin-bottom: 0;
 }
 .img {
     float: left;
-    margin-right: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 .title {
     float: left;
@@ -54,9 +54,11 @@ body {
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.1em;
+    margin-top: 19px;
     color: #F13C6E;
-    padding-top: 19px;
+    
     text-decoration: none;
+    text-align: center;
 }
 .border {
     margin-bottom: 30px;
@@ -111,7 +113,6 @@ body {
     line-height: 56px;
     color: #FFFFFF;
     margin-bottom: 50px;
-    padding-top: 192px;
 }
 .parag {
     font-size: 14px;
@@ -130,17 +131,16 @@ body {
     border: 2px solid #FFFFFF;
     border-radius: 40px;
     color: #FFFFFF;
-    padding: 12px 25px 13px 27px;
+    padding: 11px 44px 10px 44px;
     text-decoration: none;
-}
-.more:last-child {
-    padding: 9px 28px 9px 29px;
-    margin-left: 30px;
-    margin-top: 50px;
+    display: inline-block;
+    
+    
 }
 .block {
     padding-bottom: 193px;
-    
+    padding-top: 192px;
+    display: inline-block
 }
 .conblock {
     background-image: url(./images/imgmain.png);
@@ -217,7 +217,7 @@ body {
     width: 540px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 8px;
+    margin-right: 30px;
     margin-bottom: 108px;
 }
 .card:last-child {
@@ -248,7 +248,7 @@ body {
     line-height: 21px;
     margin-bottom: 25px;
     padding-top: 31px;
-    padding-left: 32px;
+    padding-left: 40px;
 }
 .cardparag {
     font-size: 14px;
@@ -256,13 +256,16 @@ body {
     color: #FFFFFF;
     margin-bottom: 25px;
     width: 280px;
-    padding-left: 32px;
+    padding-left: 40px;
 }
-.margin {
-    margin-bottom: 45px;
+
+.second {
+    padding: 8px 27px 7px 27px;
+    letter-spacing: 0em;
+    margin-left: 40px;
 }
 .input {
-    margin-left: 32px;
+    margin-left: 40px;
     border: 1px solid #FFFFFF;
     border-radius: 40px;
     padding: 9px 35px 9px 25px;
@@ -299,26 +302,23 @@ body {
     display: inline-block;
     vertical-align: top;
 }
-.brandblock:last-child {
-    margin-bottom: 80px;
-}
 .footertitle {
     font-weight: 500;
     font-size: 16px;
     line-height: 22.5px;
     color: #000000;
+    padding-bottom: 25px;
     margin-bottom: 30px;
     width: 255px;
-}
-.footerb2 {
     border-bottom: 1px solid #EFEFEF;
-    margin-bottom: 25px;
+}
+.list {
+    display: block;
 }
 .footeritems {
     font-size: 12px;
     line-height: 28px;
     color: #828282;
-    display: block;
     text-decoration: none;
 }
 .footermenu {
@@ -338,7 +338,8 @@ body {
     float: left;
 }
 .youtube {
-    padding: 12px 9px 11px 9px;
+    padding: 12px 9px 13px 9px;
+    display: block;
 }
 .ylogo {
     border: 2px solid #F13C6E;
@@ -351,13 +352,16 @@ body {
     margin-bottom: 38px;
 }
 .vk {
-    padding: 12px 6px 11px 5px;
+    padding: 13px 6px 12px 6px;
+    display: block;
 }
 .facebook {
-    padding: 11px 10px 8px 11px;
+    padding: 11px 10px 10px 11px;
+    display: block;
 }
 .insta {
-    padding: 10px 9px 7px 10px;
+    padding: 10px 9px 9px 10px;
+    display: block;
 }
 .fright {
     float: right;
