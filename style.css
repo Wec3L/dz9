@@ -312,9 +312,6 @@ body {
     width: 255px;
     border-bottom: 1px solid #EFEFEF;
 }
-.list {
-    display: block;
-}
 .footeritems {
     font-size: 12px;
     line-height: 28px;
